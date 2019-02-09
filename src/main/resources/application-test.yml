@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/tacocloud
+    username: tacouser
+    password: tacopassword
+logging:
+  level:
+    tacos: WARN
+    
+    
+# export SPRING_PROFILES_ACTIVE=prod
+#java -jar taco-cloud.jar --spring.profiles.active=prod
